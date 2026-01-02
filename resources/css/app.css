@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* *{
+    border: 1px solid red;
+} */
+
+@font-face {
+    font-family: "Basement Grosteque";
+    src: url("../../public/fonts/BasementGrotesque-Black_v1.202.otf");
+}
+
+a:hover{
+    text-decoration: none;
+    letter-spacing: 0;
+    transition: 1s;
+}
+
+body{
+    height: 100vh;
+    background-image: url("../../public/img/DSCF3914.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-fluid::before{
+    background-color: rgba(82, 128, 180, 0.5);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-blue-brand{
+    background-color: rgba(82, 128, 180);
+}
+
+.nav-link{
+    padding: 1rem 1rem !important;
+}
+
+.nav-header-item{
+    font-size: 2rem !important;
+}
+
+
+#loose-brand{
+    font-family: "Basement Grosteque";
+    letter-spacing: 1rem;
+    color: white;
+    text-align: center;
+}
