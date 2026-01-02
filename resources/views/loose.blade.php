@@ -6,7 +6,7 @@
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   
+   @include('templates.header')
     <!-- STYLES -->
     <style>
         header{
