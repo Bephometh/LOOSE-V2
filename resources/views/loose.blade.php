@@ -25,6 +25,10 @@
             background: none;
         }
 
+        .container{
+            max-width: 100%;
+        }
+
         #loose-h1{
             font-family: "Basement Grosteque";
             letter-spacing: 2rem;
@@ -94,9 +98,9 @@
 <body>
     <div class="container-fluid m-0 p-0">    
         <!-- HEADER: MENU + HEROE SECTION -->
-        <header class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <div class="col-12 my-auto p-0">
+        <header class="row jumbotron jumbotron-fluid">
+            <div class="container col-12">
+                <div class=" my-auto p-0">
                     <h1 id="loose-h1">LOOSE</h1>
                 </div>
             </div>
@@ -108,7 +112,7 @@
                 <div id="menu">            
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item text-center"  data-aos="fade-left">
-                            <a class="text-center" href="">About Us</a>
+                            <a class="text-center" href="/aboutus">About Us</a>
                         </li>
                         <li class="list-group-item text-center"  data-aos="fade-right">
                             <a class="text-center" href="">What We've Been Up To</a>
